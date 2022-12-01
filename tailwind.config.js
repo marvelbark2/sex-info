@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       colors: {
         'bloody-red': '#C81919',
+        'light-red': '#E63737',
         'bodyLight': '#F4F4F4',
       },
       spacing: {
