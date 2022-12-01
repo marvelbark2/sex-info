@@ -13,9 +13,9 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="infos p-8 lg:p-2 text-center lg:text-left">
-            <h1 className="font-bold text-3xl lg:text-6xl mb-8 text-gray-700">Coronavirus</h1>
+            <h1 className="font-bold text-3xl lg:text-6xl mb-8 text-gray-700">VIH / SIDA</h1>
             <p className="text-lg lg:text-xl mb-8 text-yellow font-light tracking-wider">
-              {`Les scientifiques affirment que le Coronavirus a besoin en moyenne de 2 à 14 jours pour que les symptômes commencent à apparaître. Cela commence par de la fièvre suivie d'une toux sèche et après environ une semaine, la personne éprouve des difficultés à respirer.`}
+              {`Deux à trois semaines après la contamination par le VIH, environ une personne sur trois développe des symptômes qui évoquent une grippe (fièvre, frissons, maux de tête, ganglions enflés, fatigue, rougeurs de la peau, courbatures, etc.). Ces symptômes disparaissent après quelques jours mais, dans certains cas, ils sont suffisamment sévères pour amener la personne à consulter.`}
             </p>
             <Link className="inline-block text-base lg:text-xl text-white px-10 py-4 rounded bg-bloody-red font-light" href="/stats">Les statistiques en  temps réel.</Link>
           </div >
