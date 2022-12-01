@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto overflow-hidden">
       <div className="flex flex-col lg:flex-row flex-wrap min-h-screen lg:h-screen content-center items-center">
         <div className="w-full lg:w-1/2">
           <div className="p-2">
