@@ -1,4 +1,4 @@
-import { faHouse, faChartLine, faLink, faBuildingColumns, faHospital, faShareNodes } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faChartLine, faLink, faBuildingColumns, faHospital, faShareNodes, faNewspaper } from '@fortawesome/free-solid-svg-icons'
 
 export const navElement = [
     {
@@ -13,6 +13,11 @@ export const navElement = [
         slug: '/stats',
         icon: faChartLine
     },
+
+    {
+        slug: '/news',
+        icon: faNewspaper
+    }
 
 ]
 

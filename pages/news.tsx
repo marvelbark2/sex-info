@@ -1,20 +1,19 @@
-export async function getStaticProps() {
-    try {
-        const fetching = await fetch("/api/news");
-        if (fetching.ok) {
-            const data = await fetching.json();
-            return {
-                props: {
-                    stringifiedData: JSON.stringify(data),
-                }
+import { useEffect, useState } from "react";
+
+export default function News() {
+    const [news, setNews] = useState([]);
+
+    useEffect(() => {
+        const loadNews = async () => {
+            const fetching = await fetch("/api/news");
+            if (fetching.ok) {
+                const data = await fetching.json();
+                setNews(data);
             }
         }
-    } catch (error) {
-        throw (error);
-    }
-}
-export default function News({ stringifiedData }: { stringifiedData: string }) {
-    const news = JSON.parse(stringifiedData);
+
+        loadNews();
+    }, [])
     return (
         <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row flex-wrap min-h-screen m-4 lg:mt-16 lg:mx-16">
