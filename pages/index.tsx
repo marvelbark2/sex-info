@@ -17,7 +17,7 @@ export default function Home() {
             <p className="text-lg lg:text-xl mb-8 text-yellow font-light tracking-wider">
               {`Deux à trois semaines après la contamination par le VIH, environ une personne sur trois développe des symptômes qui évoquent une grippe (fièvre, frissons, maux de tête, ganglions enflés, fatigue, rougeurs de la peau, courbatures, etc.). Ces symptômes disparaissent après quelques jours mais, dans certains cas, ils sont suffisamment sévères pour amener la personne à consulter.`}
             </p>
-            <Link className="inline-block text-base lg:text-xl text-white px-10 py-4 rounded bg-bloody-red font-light" href="/stats">Les statistiques en  temps réel.</Link>
+            <Link className="inline-block text-base lg:text-xl text-white px-10 py-4 rounded bg-bloody-red font-light" href="/infos">Les actualités en  temps réel.</Link>
           </div >
         </div >
       </div >

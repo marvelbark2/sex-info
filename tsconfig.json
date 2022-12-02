@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@utils/*": ["utils/*"],
-      "@types/*": ["types/*"],
+      "@custom-types/*": ["types/*"],
+      "@lib/*": ["libs/*"],
     },
     "incremental": true
   },

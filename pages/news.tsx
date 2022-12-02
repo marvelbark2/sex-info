@@ -3,15 +3,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 import { twitterAccounts } from "@utils/index"
 import styles from "../styles/News.module.css";
-
-
-interface NewsNode {
-    author: string | null;
-    title: string;
-    source: string;
-    url: string | null;
-    image: string | null;
-}
+import { NewsNode } from '@custom-types/news'
 
 const optionTwitter = {
     chrome: 'noheader nofooter'

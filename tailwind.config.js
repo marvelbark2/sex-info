@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         'bloody-red': '#C81919',
         'light-red': '#E63737',
-        'bodyLight': '#F4F4F4',
+        'dark-red': '#3e0909',
+        'bodyLight': '#F5F5F5',
         'twitter': '#1DA1F2',
       },
       spacing: {
