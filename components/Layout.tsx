@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import Sidenav from "./partials/SideNav";
 
 function MobileSidenav() {
@@ -20,6 +21,15 @@ export default function Layout({ children }: { children: ReactNode }) {
                     </div>
                     <MobileSidenav />
                 </nav>
+            </div>
+
+            <div className="absolute text-bloody-red top-2 right-2" >
+                <Image
+                    src="/assets/sida.png"
+                    alt="sida"
+                    width={75}
+                    height={75}
+                />
             </div>
 
             <div className="flex flex-col lg:flex-row flex-wrap">
