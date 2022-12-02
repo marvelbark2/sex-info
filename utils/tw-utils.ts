@@ -1,0 +1,1 @@
+export const twitterAccounts = ["SidaInfoService", "HIS_hepatites", "Sidaction", "SolidariteSida"]
