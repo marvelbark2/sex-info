@@ -8,6 +8,7 @@ export default function Loader() {
                     className="animate-spin"
                     width={200}
                     height={200}
+                    priority
                 />
                 <span className="text-bloody-red font-extrabold text-lg uppercase bg-red-100 px-2 py-1">Utilises un préservatif</span>
             </div>

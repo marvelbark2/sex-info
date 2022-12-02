@@ -86,3 +86,5 @@ export const utilLinks = [
         ]
     }
 ]
+
+export const twitterAccounts = ["SidaInfoService", "HIS_hepatites", "Sidaction", "SolidariteSida"]

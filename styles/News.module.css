@@ -1,0 +1,63 @@
+.timeline.tm-left::after {
+    left: 0;
+}
+.timeline.tm-right::after {
+    right: 0;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #C81919;
+    top: 80px;
+    bottom: 0;
+    margin-right: -3px;
+}
+.timeline-data {
+    position: relative;
+    background-color: inherit;
+}
+.timeline-data.tmdt-left::after {
+    left: -35px;
+}
+.timeline-data.tmdt-right::after {
+    right: -36px;
+}
+.timeline-data::after {
+    content: url(/assets/icons/info.svg);
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #C81919;
+    top: 56px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.dark .timeline::after {
+    background-color: #66153e;
+}
+.dark .timeline-data::after {
+    background-color: #66153e;
+}
+.tweeters::after, .dark .tweeters::after {
+    background-color: #00acee;
+}
+.tweeters-data::after, .dark .tweeters-data::after {
+    content: url(/assets/icons/twitter.svg);
+    background-color: #00acee;
+    line-height: 65px;
+}
+@media (max-width: 768px) {
+    .timeline::after {
+        content: '';
+        display: none;
+   }
+    .timeline-data::after {
+        content: '';
+        display: none;
+   }
+}
