@@ -22,10 +22,6 @@ export default function Layout({ children }: { children: ReactNode }) {
                 </nav>
             </div>
 
-            <div className="absolute text-bloody-red top-2 right-2" >
-                <span className="font-semibold text-base">{`BAISER SANS D'ÊTRE BAISÉ`}</span>
-            </div>
-
             <div className="flex flex-col lg:flex-row flex-wrap">
                 <div className="w-full lg:w-1/12 hidden lg:block">
                     <nav className="fixed w-1/12 h-screen bg-bloody-red" >

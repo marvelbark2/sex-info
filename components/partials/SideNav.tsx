@@ -13,7 +13,7 @@ export default function Sidenav() {
                     <li key={index}>
                         <div className={`cursor-pointer mb-8 p-4 text-xl lg:rounded-l-3xl ${router.asPath === nav.slug ? "active text-bloody-red bg-bodyLight" : ""}`}>
                             <Link href={nav.slug} passHref>
-                                <FontAwesomeIcon className="w-24" icon={nav.icon} />
+                                <FontAwesomeIcon size="lg" icon={nav.icon} />
                             </Link>
                         </div>
                     </li>
