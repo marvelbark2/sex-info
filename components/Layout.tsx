@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 import Sidenav from "./partials/SideNav";
+import Head from "next/head";
 
 function MobileSidenav() {
     return <span>NAVBAR</span>
@@ -11,6 +12,11 @@ function MobileSidenav() {
 export default function Layout({ children }: { children: ReactNode }) {
     return (
         <div className="bg-bloody-red">
+            <Head>
+                <title>sida-info</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+            </Head>
             <div className="block lg:hidden">
                 <div className="fixed w-full h-full bg-black opacity-75 z-10">...</div>
                 <nav className="transition fixed h-screen z-20 top-0 overflow-auto  show bg-bloody-red msidenavleft left-0" style={{ zIndex: 9999 }}>
@@ -46,7 +52,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                     {children}
                 </div >
             </div >
-        </div >
+        </div>
     )
 
 }
