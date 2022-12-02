@@ -50,7 +50,9 @@ export default function News() {
                                         }
                                         {
                                             item.url && (
-                                                <a className="inline-block py-2 px-6 transition shadow text-white rounded float-left bg-light-red hover:bg-bloody-red" target="_blank" href={item.url} rel="noreferrer">MORE</a>
+                                                <a className="inline-block py-2 px-6 transition shadow text-white rounded float-left bg-light-red hover:bg-bloody-red" target="_blank" href={item.url} rel="noreferrer">
+                                                    Lire la suite
+                                                </a>
                                             )
                                         }
                                     </div>
